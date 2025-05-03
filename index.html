@@ -139,13 +139,13 @@
         // 下载功能
         function downloadPDF() {
             const link = document.createElement('a');
-            link.href = 'C:\Users\19863\Desktop\漱星阁开局指南2025.1.19.pdf'; // 替换为实际PDF地址
+            link.href = '漱星阁开局指南2025.1.19.pdf'; // 替换为实际PDF地址
             link.download = 'document.pdf';
             link.click();
         }
 
         // 初始化示例PDF（替换为你的PDF地址）
-        initPDFViewer('C:\Users\19863\Desktop\漱星阁开局指南2025.1.19.pdf');
+        initPDFViewer('漱星阁开局指南2025.1.19.pdf');
 
         // 输入框页码跳转
         document.getElementById('page-number').addEventListener('change', function() {
